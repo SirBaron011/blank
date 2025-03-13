@@ -1,0 +1,16 @@
+{
+  "name": "Ubuntu Latest Dev Container",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": "."
+  },
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "extensions": [
+    "ms-vscode.cpptools",
+    "ms-vscode.cmake-tools",
+    "ms-azuretools.vscode-docker"
+  ],
+  "postCreateCommand": "echo 'Welcome to your Ubuntu Latest Dev Container!'"
+}
